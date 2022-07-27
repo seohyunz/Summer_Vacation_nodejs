@@ -15,6 +15,9 @@ http.createServer(function(request, response){
 //모듈 추출
 var http = require('http');
 http.createServer(function(reuest,response){
+    //변수 선언
+    var data = new Date();
+    Date.setDate(date.getDate()+7);
     //쿠키 생성
     response.writeHead(200,{
         'Content-Type':'text/html',
@@ -25,3 +28,4 @@ http.createServer(function(reuest,response){
 }).listen(4444, function(){
     console.log('서버 대기 중');
 })
+
