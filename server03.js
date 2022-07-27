@@ -1,7 +1,7 @@
 //모듈 추출
 var fs = require('fs');
-var http = rquire('http');
-var ejs = rquire('ejs');
+var http = require('http');
+var ejs = require('ejs');
 //서버생성,실행
 http.createServer(function(request,response){
     fs.readFile('ejsPage.ejs','utf8', function(error,data){
