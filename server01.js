@@ -13,7 +13,7 @@ server.listen('4444',function(){
 });
 
 const http = require('http');
-http,createServer((reqmres)=>{
+http.createServer((reqmres)=>{
     res.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});
     res.write('<h1> Gello node.js</h1>');
     res.write('<p> Hello Server </p>');
@@ -21,3 +21,4 @@ http,createServer((reqmres)=>{
     console.log('4444번 포트에서 서버 대기중...');
 
 })
+

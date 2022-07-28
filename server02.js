@@ -1,5 +1,5 @@
 var fs = require('fs');
-var http = rquire('http');
+var http = require('http');
 http.createServer(function(request, response){
    //이미지파일 읽기
     fs.readFile('./nodejs/eximage.png', function(error,data){
