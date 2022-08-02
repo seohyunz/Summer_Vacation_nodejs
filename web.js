@@ -5,7 +5,7 @@ var server = http.createServer(function(request,response){
   if(request.url == '/'){
     url = '/index1.html';
     }
-    if(rquest.url == '/other.html'){
+  if(rquest.url == '/other.html'){
       return response.writeHead(404);
     }
     response.writeHead(200);

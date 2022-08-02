@@ -2,6 +2,25 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
-    "jade": "^1.11.0"
-  }
+    "http": "^0.0.1-security",
+    "jade": "^1.11.0",
+    "mysql": "^2.18.1"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "app01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seohyunz/Summer_Vacation_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seohyunz/Summer_Vacation_nodejs/issues"
+  },
+  "homepage": "https://github.com/seohyunz/Summer_Vacation_nodejs#readme",
+  "description": ""
 }
